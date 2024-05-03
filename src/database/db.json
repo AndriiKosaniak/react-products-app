@@ -1,0 +1,65 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "imageUrl": "https://picsum.photos/200/300?random=1",
+      "name": "Hello World4567",
+      "count": 4,
+      "size": {
+        "width": 200,
+        "height": 200
+      },
+      "weight": "200g"
+    },
+    {
+      "id": "2",
+      "imageUrl": "https://picsum.photos/200/300?random=2",
+      "name": "C",
+      "count": 10,
+      "size": {
+        "width": 200,
+        "height": 200
+      },
+      "weight": "200g",
+      "comments": [
+        {
+          "id": 1,
+          "productId": 2,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        },
+        {
+          "id": 2,
+          "productId": 2,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "imageUrl": "https://picsum.photos/200/300?random=3",
+      "name": "B",
+      "count": 1,
+      "size": {
+        "width": 200,
+        "height": 200
+      },
+      "weight": "200g",
+      "comments": [
+        {
+          "id": 1,
+          "productId": 3,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        },
+        {
+          "id": 2,
+          "productId": 3,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        }
+      ]
+    }
+  ]
+}
